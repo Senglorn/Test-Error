@@ -44,7 +44,7 @@ class CategoryController extends Controller
         ]);
         category::create($varidated_date);
         // use with method should have key and value, success is key and title is value, thought key success and value to function index on top then study conditional 
-        return redirect()->route('categories.index')->with('success', 'Category has been added Successfully!');
+        return redirect()->route('category.index')->with('success', 'Category has been added Successfully!');
     }
 
     /**
@@ -68,8 +68,8 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
-        //
-    }
+    // public function update(Request $request, $id)
+    // {
+    //     //
+    // }
 }

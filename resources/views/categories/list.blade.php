@@ -39,7 +39,8 @@
                                             <a href="#">
                                                 <button type="button" class="btn btn-primary"> <i class="fas fa-eye"></i> </button> &nbsp;&nbsp;
                                             </a>
-                                            <a href="{{ route('category.edit', $categories->id)}}">
+                                            <a href="#">
+                                            {{-- <a href="{{ route('category.edit', $categories->id)}}"> --}}
                                                 <button type="button" class="btn btn-success"> <i class="fas fa-edit"></i> </button> &nbsp;&nbsp;
                                             </a>
                                             <a href="#">
@@ -51,10 +52,9 @@
                             @endforeach
                     </tbody>
                 </table>
-                <div class="card-footer">
-                    {{-- {{ $category->links() }} --}}
-                    {{-- {{ $category->onEachSide(5)->links() }} --}}
-                </div>
+                {{-- <div class="card-footer">
+                    {{ $category->links() }}
+                </div> --}}
             </div>
             <!-- /.card-body -->
             

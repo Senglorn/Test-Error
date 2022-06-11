@@ -20,7 +20,7 @@ use RealRashid\SweetAlert\Facades\Alert;
 Route::get('/category', [CategoryController::class,'index'])->name('category.index');
 Route::get('/category/create', [CategoryController::class,'create'])->name('category.create');
 Route::post('/category/store', [CategoryController::class,'store'])->name('category.store');
-Route::put('/category/update', [CategoryController::class, 'destroy'])-> name('category.update');
+// Route::put('/category/update', [CategoryController::class, 'destroy'])-> name('category.update');
 // Route::get('/category/edit', [CategoryController::class, 'edit'])->name('category.edit');
 
 
