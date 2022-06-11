@@ -39,8 +39,8 @@
                     </a>
                 </form>
             </div> {{-- card-body --}}
-        </div>
+        {{-- </div>
     </div>
 </div>
 
-@endsection --}}
+@endsection --}} 
